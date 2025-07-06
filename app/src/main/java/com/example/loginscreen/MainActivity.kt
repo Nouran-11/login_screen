@@ -39,10 +39,8 @@ fun LoginApp() {
 
     val context = LocalContext.current
 
-    LaunchedEffect(key1 = uiState.loginSuccess) {
-        if (uiState.loginSuccess) {
+    if (uiState.loginSuccess) {
             Toast.makeText(context, "Login Successful!", Toast.LENGTH_SHORT).show()
-        }
     }
 
     Box(modifier = Modifier.fillMaxSize()) {
