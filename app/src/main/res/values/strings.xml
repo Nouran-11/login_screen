@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">login screen</string>
+    <string name="app_name">Your App</string>
+
+    <string name="background_image_desc">Abstract background design</string>
+    <string name="logo_desc">Application logo</string>
+    <string name="menu_desc">Menu</string>
+    <string name="email_icon_desc">Email icon</string>
+    <string name="password_icon_desc">Password icon</string>
+    <string name="show_password_desc">Show password</string>
+    <string name="hide_password_desc">Hide password</string>
+
+    <string name="login_title">Login</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login_button">LOGIN</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
 </resources>
