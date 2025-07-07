@@ -1,6 +1,6 @@
 package com.example.app.ui.theme
 
-//
+
 //private val DarkColorScheme = darkColorScheme(
 //    primary = Yellow,
 //    secondary = PurpleGrey80,
@@ -44,3 +44,5 @@ package com.example.app.ui.theme
 //        content = content
 //    )
 //}
+//force colors to all
+//colors.xml is better , adjustable

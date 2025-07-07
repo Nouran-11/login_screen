@@ -8,7 +8,7 @@ object Dimens {
     val PaddingMedium = 16.dp
     val PaddingLarge = 40.dp
     val PaddingExtraLarge = 50.dp
-    val PaddingLoginTitle = 140.dp
+    val PaddingExtraExtraLarge = 160.dp
 
     val SpacerSmall = 10.dp
     val SpacerMedium = 16.dp
@@ -23,7 +23,9 @@ object Dimens {
     val ButtonHeight = 56.dp
     val CornerRadius = 20.dp
 
-    val TitleFontSize = 45.sp
+    val TitleFontSize = 35.sp
     val ButtonFontSize = 30.sp
     val BodyFontSize = 15.sp
 }
+//better to use dimens.xml
+//xml can adjust to different screens
