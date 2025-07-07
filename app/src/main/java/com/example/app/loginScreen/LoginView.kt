@@ -1,4 +1,4 @@
-package com.example.loginscreen
+package com.example.app.loginScreen
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
@@ -21,9 +21,11 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
-import com.example.loginscreen.ui.theme.Black
-import com.example.loginscreen.ui.theme.Dimens
-import com.example.loginscreen.ui.theme.Yellow
+import com.example.app.ui.theme.Black
+import com.example.app.ui.theme.Dimens
+import com.example.app.ui.theme.Yellow
+import com.example.app.R
+
 
 @Composable
 fun LoginScreen(

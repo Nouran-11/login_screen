@@ -1,5 +1,6 @@
-package com.example.loginscreen
+package com.example.app.loginScreen
 
+import android.util.Patterns
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -56,7 +57,7 @@ class LoginViewModel : ViewModel() {
             _uiState.update { it.copy(emailError = "Email cannot be empty") }
             return
         }
-        if (!android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+        if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
             _uiState.update { it.copy(emailError = "Invalid email format") }
             return
         }
@@ -66,7 +67,7 @@ class LoginViewModel : ViewModel() {
         }
 
 
-        if (android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+        if (Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
                 _uiState.update { it.copy(loginSuccess = true)}
                 println("Login Successful!")
         } else {

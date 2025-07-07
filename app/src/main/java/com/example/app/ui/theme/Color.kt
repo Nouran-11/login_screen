@@ -1,6 +1,5 @@
-package com.example.loginscreen.ui.theme
+package com.example.app.ui.theme
 
-import androidx.compose.material3.ButtonColors
 import androidx.compose.ui.graphics.Color
 
 

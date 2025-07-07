@@ -1,4 +1,4 @@
-package com.example.loginscreen
+package com.example.app
 
 import org.junit.Test
 
